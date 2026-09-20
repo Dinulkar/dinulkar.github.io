@@ -1,22 +1,13 @@
-# Dinesh Kumar Rajakumaran — Single-page portfolio
+# Dinesh Kumar Rajakumaran — Single-page GitHub Portfolio
 
-This folder is ready for GitHub Pages without npm, Vite or a build step.
+Deploy-ready GitHub Pages portfolio.
 
-## Deploy
-
-For the simplest setup, create or use the repository `Dinulkar.github.io` and put these files in its root:
+## Files to upload to `Dinulkar.github.io`
 
 - `index.html`
+- `profile.jpg`
 - `Dinesh-Kumar-Rajakumaran-CV.pdf`
 
-Then open **Settings → Pages → Build and deployment** and select:
+Upload all three files to the root of the repository. The profile image is used in the hero section and the CV button downloads the included PDF.
 
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **/(root)**
-
-The website will be served at `https://dinulkar.github.io/`.
-
-## Edit
-
-All layout, CSS and JavaScript are inside `index.html`. Replace the PDF while keeping the same filename to update the downloadable CV.
+This update also fixes the contact-card alignment so the email row is left-aligned consistently with Phone, LinkedIn and GitHub.
